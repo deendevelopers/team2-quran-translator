@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-virtualenv create venv
+python3 -m venv venv
 source ./venv/bin/activate
 pip install -r requirements.txt
