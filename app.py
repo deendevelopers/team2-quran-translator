@@ -10,13 +10,6 @@ with open('data/trans_var.json', 'r') as f:
 
 app = FastAPI()
 
-origins = [
-    "http://localhost.tiangolo.com",
-    "https://localhost.tiangolo.com",
-    "http://localhost",
-    "http://localhost:3000",
-]
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -44,11 +37,14 @@ def get_surah_list():
 @app.get("/{surah}")
 def get_verses_text(surah: int):
     verses = []
+    i = 1
     for index, row in df_trans.loc[surah][['Verse Text', DEFAULT_TRANS]].iterrows():
         verses.append(
             {'text': row['Verse Text'],
-             'translation': row[DEFAULT_TRANS]}
+             'translation': row[DEFAULT_TRANS],
+             'number': i}
         )
+        i += 1
     return verses
 
 
