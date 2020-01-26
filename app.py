@@ -62,7 +62,7 @@ def get_verse(surah: int, verse: int):
         i += 1
 
     r = trans_json['verses'][verse]
-    r['translation'] = verses[i]['translation']
+    r['translation'] = verses[verse]['translation']
     return r
 
 
