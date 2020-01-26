@@ -73,10 +73,12 @@ def get_translation(surah: int, verse_no: int, word_index):
 
 
 @app.get("/retranslate/{surah}/{verse}/{word_idx}/{trans_option}")
-def retranslate(surah: int, verse: int, word_idx: int, trans_option):
+def retranslate(surah: int, verse: int, word_idx: int, trans_option: int):
     new_trans = ''
     verse_json = trans_json['verses'][verse - 1]
-    for idx, word_json in verse_json:
+    for idx, word_json in enumerate(verse_json['words']):
+        print(new_trans)
+        print(idx, word_json)
         if idx == word_idx:
             new_trans += word_json['trans_variations'][trans_option]['en_trans']
         else:
