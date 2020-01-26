@@ -21,7 +21,8 @@ def root_page():
 
 @app.get('/get-surah-list/')
 def get_surah_list() -> List:
-    return df_trans['Surah Name'].unique().tolist()
+    return [{"name": s,  "number": i} for i, s in
+            enumerate(df_trans['Surah Name'].unique().tolist())]
 
 
 @app.get("/{surah}")
@@ -33,6 +34,12 @@ def get_verses_text(surah: int):
              'translation': row[DEFAULT_TRANS]}
         )
     return verses
+
+
+@app.get("/{surah}/{verse}")
+def get_verse(surah: int, verse: int):
+
+    return {}
 
 
 @app.get("/get-translator/{surah}/{verse_no}/{word_index}")
