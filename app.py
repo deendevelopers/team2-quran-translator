@@ -50,8 +50,7 @@ def get_verses_text(surah: int):
 
 @app.get("/{surah}/{verse}")
 def get_verse(surah: int, verse: int):
-
-    return {}
+    return trans_json['verses'][verse]
 
 
 @app.get("/get-translator/{surah}/{verse_no}/{word_index}")
