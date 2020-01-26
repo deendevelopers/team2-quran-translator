@@ -1,0 +1,226 @@
+{
+  "surah_num": 1,
+  "verses": [
+    {
+      "verse_num": 1,
+      "words": [
+        {
+          "arabic_text": "بِسۡمِ ",
+          "trans_variations": [
+            {
+              "en_trans": "By the name of",
+              "refs": [],
+              "tafsir": "الباء للاستعانة"
+            },
+            {
+              "en_trans": "With the name of",
+              "refs": [],
+              "tafsir": "الباء للمصاحبة (التبرك)"
+            }
+          ]
+        },
+        {
+          "arabic_text": "ٱللَّهِ",
+          "trans_variations": [
+            {
+              "en_trans": "God",
+              "refs": [],
+              "tafsir": ""
+            }
+          ]
+        },
+        {
+          "arabic_text": "ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ ",
+          "trans_variations": [
+            {
+              "en_trans": "the All-Merciful, the Ever-Merciful.",
+              "refs": [
+                "Ahmed Ali"
+              ],
+              "tafsir": "فعلان لمن تكرر منه الفعل وكثر وفعيل لمن ثبت منه الفعل ودام "
+            },
+            {
+              "en_trans": "the Possessor of mercy, the Mercy-giving.",
+              "refs": [
+                "Asad"
+              ],
+              "tafsir": "الرحمن دال على الصفة القائمة به تعالى والرحيم دال على تعلقها بالمرحوم"
+            },
+            {
+              "en_trans": "Universally Merciful and Exclusively Merciful",
+              "refs": [
+                "Saheeh International"
+              ],
+              "tafsir": "(رحمة للخلق عامة وللمؤمنين خاصة, أو يرحم كلهم في الدنيا والمؤمنين خاصة في الآخرة)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verse_num": 2,
+      "words": [
+        {
+          "arabic_text": "ٱلۡحَمۡدُ لِلَّهِ",
+          "trans_variations": [
+            {
+              "en_trans": "Praise is for God,",
+              "refs": [
+                "Ahmed Raza Khan",
+                "Arberry",
+                "Asad",
+                "Qarai",
+                "Wahiduddin Khan"
+              ],
+              "tafsir": "الجملة إخبارية"
+            },
+            {
+              "en_trans": "Praise be to God,",
+              "refs": [
+                "Ahmed Ali",
+                "Daryabadi",
+                "Hilali & Khan",
+                "Itani",
+                "Maududi",
+                "Mubarakpuri",
+                "Pickthall",
+                "Qaribullah & Darwish",
+                "Saheeh International",
+                "Sarwar",
+                "Yusuf Ali"
+              ],
+              "tafsir": "الجملة إنشائية"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verse_num": 3,
+      "words": [
+        {
+          "arabic_text": "ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ ",
+          "trans_variations": [
+            {
+              "en_trans": "the All-Merciful, the Ever-Merciful.",
+              "refs": [
+                "Ahmed Ali"
+              ],
+              "tafsir": "فعلان لمن تكرر منه الفعل وكثر وفعيل لمن ثبت منه الفعل ودام "
+            },
+            {
+              "en_trans": "the Possessor of mercy, the Mercy-giving.",
+              "refs": [
+                "Asad"
+              ],
+              "tafsir": "الرحمن دال على الصفة القائمة به تعالى والرحيم دال على تعلقها بالمرحوم"
+            },
+            {
+              "en_trans": "Universally Merciful and Exclusively Merciful",
+              "refs": [
+                "Saheeh International"
+              ],
+              "tafsir": "(رحمة للخلق عامة وللمؤمنين خاصة, أو يرحم كلهم في الدنيا والمؤمنين خاصة في الآخرة)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verse_num": 4,
+      "words": [
+        {
+          "arabic_text": "ِمَٰلِكِ يَوۡمِ ٱلدِّينِ  ",
+          "trans_variations": [
+            {
+              "en_trans": "Master of the Day of Judgment",
+              "refs": [],
+              "tafsir": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verse_num": 5,
+      "words": [
+        {
+          "arabic_text": "إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِينُ ",
+          "trans_variations": [
+            {
+              "en_trans": "You we worship and You we ask for help.",
+              "refs": [],
+              "tafsir": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verse_num": 6,
+      "words": [
+        {
+          "arabic_text": "ٱهۡدِنَا ٱلصِّرَٰطَ ٱلۡمُسۡتَقِيمَ  ",
+          "trans_variations": [
+            {
+              "en_trans": "Guide us on the straight path:",
+              "refs": [],
+              "tafsir": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verse_num": 7,
+      "words": [
+        {
+          "arabic_text": "صِرَٰطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ",
+          "trans_variations": [
+            {
+              "en_trans": "The path of those whom You blessed,",
+              "refs": [],
+              "tafsir": ""
+            }
+          ]
+        },
+        {
+          "arabic_text": "غَيۡرِ ٱلۡمَغۡضُوبِ عَلَيۡهِمۡ وَلَا ٱلضَّآلِّينَ ۡ",
+          "trans_variations": [
+            {
+              "en_trans": "not of those who receive anger, nor those who go astray",
+              "refs": [
+                "Ahmed Ali",
+                "Ahmed Raza Khan",
+                "Arberry",
+                "Asad",
+                "Daryabadi",
+                "Hilali & Khan",
+                "Itani",
+                "Mubarakpuri",
+                "Pickthall",
+                "Qaribullah & Darwish",
+                "Saheeh International",
+                "Shakir",
+                "Wahiduddin Khan"
+              ],
+              "tafsir": "بدل"
+            },
+            {
+              "en_trans": "who were not objects of anger, nor those who go astray",
+              "refs": [
+                "Maududi",
+                "Qarai",
+                "Sarwar",
+                "Yusuf Ali"
+              ],
+              "tafsir": "صفة"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
