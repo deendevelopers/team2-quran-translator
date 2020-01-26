@@ -1,0 +1,146 @@
+@import "normalize.css";
+
+body {
+  background-color: #f4f4f8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: #2c2c2c;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Page {
+  width: 100%;
+  max-width: 400px;
+  padding-top: 40px;
+}
+
+.HomeLink {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4c4c4c;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.ArabicVerse {
+  font-family: Helvetica;
+  font-size: 36px;
+  /* font-weight: 500; */
+  direction: rtl;
+}
+
+.ArabicWord {
+  display: inline;
+  /* display: inline-block; */
+}
+
+.__highlighted {
+  position: relative;
+  cursor: pointer;
+}
+
+.__highlighted::after {
+  position: absolute;
+  content: "";
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #ffc28e;
+}
+
+.EnglishTranslation {
+  font-size: 30px;
+}
+
+.TranslationTooltip {
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 2px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.HighlightedWord {
+  font-family: Helvetica;
+  font-size: 26px;
+  line-height: 1;
+  direction: rtl;
+  padding: 25px 10px 15px;
+  margin: 0;
+  background-color: aliceblue;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.TranslationOptionsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.TranslationOption {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  color: #0bad63;
+}
+
+.TranslationOption:hover {
+  background-color: #fafafa;
+}
+
+.TranslationOption:last-child {
+  border-bottom: none;
+}
+
+.SurahList {
+  display: flex;
+  flex-direction: column;
+}
+
+.SurahListItem {
+  padding: 10px 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #2c2c2c;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.SurahListItem:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.VerseList {
+  display: flex;
+  flex-direction: column;
+}
+
+.VerseListItem {
+  padding: 10px 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #2c2c2c;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.VerseListItem:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
