@@ -72,6 +72,13 @@ def get_translation(surah: int, verse_no: int, word_index):
     return dict(Translation=data)
 
 
-@app.get("/retranslate/{surah}/{verse_no}/{word_index}")
-def retranslate(surah, verse_no, word_index):
-    return dict(Text="New Translation")
+@app.get("/retranslate/{surah}/{verse}/{word_idx}/{trans_option}")
+def retranslate(surah: int, verse: int, word_idx: int, trans_option):
+    new_trans = ''
+    verse_json = trans_json['verses'][verse - 1]
+    for idx, word_json in verse_json:
+        if idx == word_idx:
+            new_trans += word_json['trans_variations'][trans_option]['en_trans']
+        else:
+            new_trans += word_json['trans_variations'][0]['en_trans']
+    return new_trans
