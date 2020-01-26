@@ -21,7 +21,7 @@ def root_page():
 
 @app.get('/get-surah-list/')
 def get_surah_list():
-    return [{"name": s,  "number": i} for i, s in
+    return [{"name": s,  "number": i + 1} for i, s in
             enumerate(df_trans['Surah Name'].unique().tolist())]
 
 
