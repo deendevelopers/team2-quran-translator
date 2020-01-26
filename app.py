@@ -24,7 +24,7 @@ def get_surah_list() -> List:
     return df_trans['Surah Name'].unique().tolist()
 
 
-@app.get("/get-verses/{surah}")
+@app.get("/{surah}")
 def get_verses_text(surah: int):
     verses = []
     for index, row in df_trans.loc[surah][['Verse Text', DEFAULT_TRANS]].iterrows():
