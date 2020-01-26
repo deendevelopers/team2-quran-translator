@@ -23,6 +23,7 @@ df_trans = pd.read_pickle('data/df_translation.pckl')
 DEFAULT_TRANS = 'en_sahih'
 
 
+
 @app.get("/")
 def root_page():
     return {"quran": "translation"}
@@ -50,7 +51,19 @@ def get_verses_text(surah: int):
 
 @app.get("/{surah}/{verse}")
 def get_verse(surah: int, verse: int):
-    return trans_json['verses'][verse]
+    verses = []
+    i = 1
+    for index, row in df_trans.loc[surah][['Verse Text', DEFAULT_TRANS]].iterrows():
+        verses.append(
+            {'text': row['Verse Text'],
+             'translation': row[DEFAULT_TRANS],
+             'number': i}
+        )
+        i += 1
+
+    r = trans_json['verses'][verse]
+    r['translation'] = verses[i]['translation']
+    return r
 
 
 @app.get("/get-translator/{surah}/{verse_no}/{word_index}")
